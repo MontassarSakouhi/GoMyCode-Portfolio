@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="./src/output.css" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav class="bg-black text-white h-1/4 min-h-[10vh] flex items-center justify-around ">
+        <h2 class="font-bold text-xl"><a href="">MontFolio</a></h2>
+        <div class="">
+            <ul class="flex justify-around">
+                <li
+                    class="  mx-3 px-3 py-1  hover:shadow-md  hover:shadow-gray-500 transition-shadow rounded duration-300 decoration-white  font-serif">
+                    <a href="Home.html">HOME</a>
+                </li>
+                <li
+                    class=" mx-3 px-3 py-1  hover:shadow-md  hover:shadow-gray-500 transition-shadow rounded duration-300    font-serif">
+                    <a href="About.html">ABOUT</a>
+                </li>
+                <li
+                    class=" mx-3 px-3 py-1  hover:shadow-md  hover:shadow-gray-500 transition-shadow rounded duration-300  font-serif">
+                    <a href="services.html">SERVICES</a>
+                </li>
+
+                <li
+                    class="relative mx-3 px-3 py-1  hover:shadow-md  hover:shadow-gray-500 transition-shadow rounded duration-300 after:absolute after:left-1/2  after:w-[60%] after:h-[2px] after:bg-white after:bottom-1 after:left-2 after:content-[''] font-serif">
+                    <a href="">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <section class="min-h-[90vh] bg-slate-200 flex items-center justify-center">
+        <div id="bg"
+            class="bg-gray-100 w-5/6 min-h-[85vh] h-3/4 mx-auto rounded shadow-md shadow-gray-600  bg-cover bg-center bg-[url('./IMG/matrix-style-binary-code-digital-falling-numbers-blue-background_1017-37387.jpg')]">
+            
+            
+            <div class="flex flex-col items-center justify-center p-6">
+                <h2 class="text-2xl font-bold mb-4">Contact Me</h2>
+                <form class="w-full max-w-md">
+                    <div class="mb-4">
+                        <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                        <input type="text" id="name" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                        <input type="email" id="email" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                        <textarea id="message" rows="4" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200" required></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-500 text-white rounded py-2 hover:bg-blue-600">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+
+</body>
+
+</html>
